@@ -1,4 +1,4 @@
-# temperatura, cuidad, dias
+# temperatura, ciudad, dias
 # matriz 3x7x3
 arreglo_temperaturas = [
     [
@@ -207,10 +207,3 @@ for ciudades in range(len(arreglo_temperaturas)):
             suma = suma + arreglo_temperaturas[ciudades][semana][temperatura]
         promedio = suma / len(arreglo_temperaturas[ciudades][semana])
         print(f"El promedio de la semana {semana + 0} es:{promedio: 2f} para la cuidad de, Ibarra")
-
-
-
-
-
-
-
