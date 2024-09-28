@@ -28,10 +28,11 @@ print(informacion_personal)
   """
 
 
+
 while True:
     datos_personales=input("Ingrese el nombre")
     edad=int(input("Ingrese la edad"))
-    ciudad=float(input("Ingrese la ciudad"))
+    ciudad=input("Ingrese la ciudad")
 
     informacion_personal = {datos_personales, edad,ciudad}
 
@@ -40,6 +41,9 @@ while True:
         break;
 
     print(informacion_personal)
+
+
+
 
 
 
