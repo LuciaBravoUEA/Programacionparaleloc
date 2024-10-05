@@ -20,6 +20,8 @@ archivo_datos.write("Linea 3: Vivo en Sucumbios.\n")
 archivo_datos.write("Linea 4: Lago Agrio.\n")
 archivo_datos.write("Linea 5: Soy Estudiante.\n")
 print(archivo_datos)
+#Cerramos el archivo
+archivo_datos.close()
 
 # modo de apertura "r" para lectura
 archivo_datos = open(file_name, "r")
